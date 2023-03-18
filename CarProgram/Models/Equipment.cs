@@ -7,7 +7,7 @@ namespace CarProgram.Models
     {
         [Key]
         public int? Id { get; set; }
-        public string? theEquipment { get; set; }
+        public string? TheEquipment { get; set; }
         public int CarId { get; set; }
         public Car? Car { get; set; }
     }
